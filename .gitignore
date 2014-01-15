@@ -1,5 +1,8 @@
 .eunit
 deps
+logs
+ebin
+cloudi.log
 *.o
 *.beam
 *.plt

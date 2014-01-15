@@ -1,0 +1,14 @@
+%%% -*- mode: erlang -*-
+{application, cloudi_service_cql,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { cloudi_service_cql_app, []}},
+  {env, [
+  ]}
+ ]}.
